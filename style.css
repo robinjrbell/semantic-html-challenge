@@ -1,0 +1,65 @@
+thead th, tfoot th {
+	height: 3rem;
+	font-family: "Rock Salt", sans-serif;
+
+}
+
+tbody th {
+	height: 3rem;
+}
+
+thead, tfoot {
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("assets/leopardskin.jpg");
+	color: white;
+	background-size: cover;
+}
+
+td, tbody th {
+	font-family: "Helvetica Neu", sans-serif;
+}
+
+tbody {
+	background-image: url("assets/noise.png");
+	background-size: cover;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	border: 2px solid #800080;
+}
+
+tfoot th {
+	text-align: right;
+	border: 2px solid #800080;
+	padding-right: 1%;
+}
+
+tfoot td {
+	text-align: left;
+	border: 2px solid #800080;
+	padding-left: 1%;
+}
+
+thead th {
+	border: 2px solid #800080;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #e495e4;
+}
+
+caption {
+	caption-side: bottom;
+	text-align: right;
+	line-height: 3rem;
+	font-family: "Rock Salt", sans-serif;
+	font-style: italic;
+	opacity: 0.9;
+}
