@@ -49,10 +49,12 @@ thead th {
 
 tbody tr:nth-child(odd) {
 	background-color: #ff33cc;
+	background-image: url("assets/noise.png");
 }
 
 tbody tr:nth-child(even) {
 	background-color: #e495e4;
+	background-image: url("assets/noise.png");
 }
 
 caption {
